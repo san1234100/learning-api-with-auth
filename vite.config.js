@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 
 export default defineConfig({
-  // base: '/YOUR_BASE/'
+  base: '/learning-api-with-auth/'
   //   build: {
   //     rollupOptions: {
   //       input: {

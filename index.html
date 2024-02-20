@@ -3,14 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>User App</title>
 
     <!-- TailwindCSS -->
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
-  <body>
-    <!-- Write your HTML here -->
-    <div id="app" class="text-3xl font-bold">Hello Vite HTML & Tailwind!</div>
+  <body class="bg-dark">
+    <div class="bg-white p-10 rounded max-w-4xl mx-auto mt-10">
+      <h4 class="font-semibold text-xl">Getting all users</h4>
+      <ul class="mt-10" id="users-placeholder">
+        <li class="bg-lightBlue px-4 p-2 rounded">
+            <h5 class="font-semibold">Vignesh (23)</h5>
+            <a href="mailto:you@gmail.com">you@gmail.com</a>
+        </li>
+      </ul>
+    </div>
     <script type="module" src="./assets/js/main.js"></script>
   </body>
 </html>
