@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User App - Login</title>
+
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+  </head>
+  <body class="bg-dark">
+    <div class="bg-white p-10 rounded max-w-xl mx-auto mt-10">
+        <a href="/" class="text-blue-700 font-medium underline">Go back</a>
+      <h4 class="font-semibold text-xl text-center">Login here</h4>
+      <form class="space-y-2" name="loginForm">
+        <div class="flex flex-col">
+            <label for="username" class="font-medium">UserName</label>
+            <input type="text" id="username" name="username" placeholder="Enter your name" class="px-4 py-2 rounded bg-gray-200 outline-none">
+        </div>
+        <div class="flex flex-col">
+            <label for="password" class="font-medium">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" class="px-4 py-2 rounded bg-gray-200 outline-none">
+        </div>
+        <div>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded w-full mt-3 font-semibold hover:bg-blue-600">Login</button>
+        </div>
+      </form>
+    </div>
+    <script type="module" src="./assets/js/auth.js"></script>
+  </body>
+</html>
